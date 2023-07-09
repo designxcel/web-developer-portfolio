@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    background-color: #FFF8F3;
+    height: 780px;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
+
+.alphabet{
+    color: #FD6E0A;
+}
+.menubar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 0 0;
+    margin: 0 160px;
+
+}
+
+.menubar h1 {
+    font-size: 45px;
+    display: block;
+}
+
+.menubar ul{
+    display: flex;
+    gap: 50px;
+    
+}
+
+.menubar li{
+    list-style: none;
+    font-size: 18px;
+    color: #474747;
+}
+
+.btn_primary{
+    background-color: #FD6E0A;
+    padding: 15px 35px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.header_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+}
+
+.header_heading p{
+    width: 550px;
+    margin-bottom: 15px;
+}
+
+.header_heading h1{
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+
+.header_heading h3{
+    font-size: 45px;
+    color:#474747;
+    margin-bottom: 15px;
+}
+
+.header_heading img{
+    text-align: right;
+}
+
+.about_me{
+    padding: 130px;
+    background: #FFF8F3;
+    margin: 130px auto;
+    display: block;
+    max-width: 1140px;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+.about_heading{
+    /* text-align: center; */
+}
+.about_heading h1{
+    text-align: center;
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.about_heading p{
+    color: #757575;
+    font-size: 18px;
+    /* width: 550px; */
+    text-align: center;
+    /* display: block; */
+}
+
+.basic_info{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    gap: 70px;
+    text-align: center;
+}
+
+.what_i_do{
+    margin: 130px 0;
+    text-align: center;
+}
+
+.skill_images{
+    display: flex;
+}
+
+.box_part{
+    background-color: #FFF8F3;
+}
+
