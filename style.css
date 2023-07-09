@@ -87,6 +87,7 @@ nav ul{
 .about_me{
     padding: 130px;
     background: #FFF8F3;
+    color: #757575;
     margin: 130px auto;
     display: block;
     max-width: 1140px;
@@ -98,7 +99,7 @@ nav ul{
 }
 .about_heading h1{
     text-align: center;
-    color: #181818;
+    color: #757575;
     font-size: 35px;
     margin-bottom: 25px;
 }
@@ -124,11 +125,144 @@ nav ul{
     text-align: center;
 }
 
+.tag_caption{
+    margin: 25px 450px;
+}
+
 .skill_images{
     display: flex;
+    max-width: 1140px;
+    /* padding: 130px; */
+    margin: 50px auto;
 }
 
 .box_part{
     background-color: #FFF8F3;
+    margin: 20px;
+    height: 300px;
+    width: 220px;
+    padding: 35px;
+    text-align: left;
+    
+}
+
+.box_part img{
+    margin-bottom: 20px;
+}
+
+.box_part h3{
+    margin-bottom: 20px;
+}
+
+.resume{
+    /* text-align: center; */
+    padding: 20px 300px 40px 300px;
+    color: #757575;
+    text-align: center;
+
+}
+
+.resume_desc_left{
+    width: 50%;
+}
+
+.resume_desc_right{
+    width: 50%;
+}
+
+.resume_desc_right h2{
+    margin-bottom: 20px;
+}
+.resume_desc{
+    display: flex;
+    justify-content: space-around;
+}
+.resume h1{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 45px;
+}
+hr{
+    width: 450px;
+    margin: 20px 0 20px 0;
+}
+
+.resume_desc_left h2{
+    margin-bottom: 20px;
+}
+.resume p{
+    margin-top: 20px;
+    width: 550px;
+}
+.my_education{
+    text-align: left;
+}
+.btn_download{
+    background-color: #FD6E0A;
+    padding: 15px 35px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 25px;
+    /* text-align: center; */
+}
+footer{
+    background-color: #FFF8F3;
+    height: 700px;
+    /* padding: 130px 300px 0 300px; */
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.footer_left {
+    width: 50%;
+    text-align: center;
+    padding: 200px 100px 0 100px;
+}
+
+.footer_left h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.footer_left p{
+    margin-bottom: 20px;
+}
+
+.footer_right{
+    width: 50%;
+    padding: 100px 100px 0 100px;
+}
+
+.footer_right h1{
+    font-size: 40px;
+    
+}
+.footer_right input{
+    width: 500px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 15px;
+}
+
+.footer_right textarea{
+    width: 500px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 15px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+::placeholder {
+    padding: 0 0 0 20px;
+}
+
+.footer_image{
+    text-align: left;
 }
 
